@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ResolverService } from '../services/resolver.service';
 
 @Component({
   selector: 'app-info-box',
@@ -9,11 +8,7 @@ import { ResolverService } from '../services/resolver.service';
 export class InfoBoxComponent implements OnInit {
   @Input() metadata!: object;
 
-  constructor(private resolverService: ResolverService) {}
+  constructor() { }
 
-  ngOnInit(): void {
-    // this.resolverService
-    //   .getMetadata("test")
-    //   .subscribe((metadata) => (this.metadata = metadata));
-  }
+  ngOnInit(): void { }
 }

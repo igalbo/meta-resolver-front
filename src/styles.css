@@ -22,3 +22,22 @@
   display: block;
   width: 100%;
 }
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.form-control input[type=text] {
+  width: 80%;
+}
+
+.info-box {
+  background: rgba(0,0,0,.03);
+  text-align: left;
+  padding: 6px;
+  border-radius: 4px;
+}

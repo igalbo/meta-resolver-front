@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "metadata-resolver"
+  },
+  "targets": {
+    "metadata-resolver": {
+      "hosting": {
+        "metadata-resolver": [
+          "metadata-resolver"
+        ]
+      }
+    }
+  }
+}
